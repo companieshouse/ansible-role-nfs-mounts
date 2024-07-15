@@ -7,7 +7,7 @@
 
 - name: Mount NFS shares
   mount:
-    fstype: "nfs"
+    fstype: "{{ item.fstype | default('nfs') }}"
     opts: "{{ item.opts | default('hard,bg') }}"
     src: "{{ item.src }}"
     path: "{{ item.path }}"
