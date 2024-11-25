@@ -1,3 +1,6 @@
+> [!WARNING]
+> This standalone Ansible Galaxy role has been deprecated and replaced with an `nfs_mounts` role belonging to the Ansible Collection [companieshouse.general](https://github.com/companieshouse/ansible-collection-general).
+
 # NFS role
 
 An [Ansible Galaxy](https://galaxy.ansible.com/) role for configuring persistent NFS filesystem mounts.
